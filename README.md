@@ -12,5 +12,5 @@ La configuración del descuento se gestiona a través del archivo `application.p
 descuento=5.0
 java -jar tu-aplicacion.jar --spring.profiles.active=gran_descuento
 
-git clone https://github.com/tu-usuario/tu-microservicio-descuento.git
-cd tu-microservicio-descuento
+git clone https://github.com/tu-usuario/java_backend_exam.git
+cd tu-microservicio-descuento](https://github.com/deyvisgc/java_backend_exam.git)https://github.com/deyvisgc/java_backend_exam.git
