@@ -1,12 +1,16 @@
-#Microservicio de descuento en Spring Boot
-Introducción
-Está implementando un microservicio en Spring Boot. El microservicio es responsable de proporcionar descuentos actuales para otros componentes de un sistema de compras. Los descuentos se proporcionan a través de un punto final REST configurado en un archivo .
+# Microservicio de Descuento en Spring Boot
 
-Planteamiento del problema
-Cambie el , para que el descuento se tome de una propiedad 'descuento' configurada en application.properties.
+Este microservicio implementa la lógica para proporcionar descuentos actuales en un sistema de compras. Utiliza Spring Boot y expone un punto final REST para obtener información sobre los descuentos.
 
-Cree un perfil llamado "gran descuento" y establezca su valor de descuento en "11,56".
+## Instrucciones de Uso
 
-Agregue las dependencias correctas en 'build.gradle' para habilitar el módulo Actuator.
+### Configuración
 
-Configure el módulo Actuator para exponer sus puntos finales en la siguiente ruta: /monitoring.
+La configuración del descuento se gestiona a través del archivo `application.properties`. Puedes cambiar el valor del descuento ajustando la propiedad `descuento`.
+
+```properties
+descuento=5.0
+java -jar tu-aplicacion.jar --spring.profiles.active=gran_descuento
+
+git clone https://github.com/tu-usuario/tu-microservicio-descuento.git
+cd tu-microservicio-descuento
